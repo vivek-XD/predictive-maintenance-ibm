@@ -12,14 +12,12 @@
 
 ## About
 
-Yeh model IBM watsonx.ai Studio pe train aur deploy hua hai. Model sirf deployed asset form mein available hai. IBM Cloud pe direct download ka option nahi milta, sirf inference/API se hi use hota hai.
-
+> This model was trained and deployed on IBM watsonx.ai Studio. The model is only available as a deployed asset. On IBM Cloud, there is no direct download option; it can only be used for inference via API.
 ## Usage
-
-- Model deployed hai as API (endpoint IBM Cloud ke deployment details mein).
-- Prediction ke liye API ko call karke inference le sakte hain – sample Python code `ibm_model_api_example.py` file mein diya gaya hai.
-
+> The model is deployed as an API (the endpoint is available in the IBM Cloud deployment details).  
+> You can make predictions by calling the API for inference—a sample Python code is provided in the `ibm_model_api_example.py` file.
 ## Notes
 
-- **Training code ya notebook abhi available nahi hai.**
-- Yeh repo sirf documentation + deployed model ke API usage samples ke liye hai.
+The training code or notebook is currently not available.
+
+This repository is only for documentation and API usage samples of the deployed model.
